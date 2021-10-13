@@ -1,0 +1,262 @@
+2021-06-01 17:27:02 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-01 17:27:03 INFO  PrincipalBean:389 - Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-01 17:27:03 INFO  PrincipalBean:396 - Ticket a enviar: 1109125
+2021-06-01 17:27:03 INFO  PrincipalBean:397 - Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"
+2021-06-01 17:27:03 INFO  PrincipalBean:399 - Enviando información...
+2021-06-01 17:27:03 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-01 17:27:03 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"","Noticket": "1109125"}
+2021-06-01 17:27:04 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 17:27:04 ERROR PrincipalBean:408 - Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 17:27:04 ERROR PrincipalBean:350 -    ::: Error java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF --> java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 17:27:04 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-01 17:27:04 ERROR PrincipalMain:58 - Mensaje del error: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 17:27:04 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:351)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:409)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:319)
+	... 1 more
+Caused by: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	... 3 more
+2021-06-01 18:35:58 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-01 18:35:59 INFO  PrincipalBean:389 - Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-01 18:35:59 INFO  PrincipalBean:396 - Ticket a enviar: 1109125
+2021-06-01 18:35:59 INFO  PrincipalBean:397 - Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"
+2021-06-01 18:35:59 INFO  PrincipalBean:399 - Enviando información...
+2021-06-01 18:35:59 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-01 18:35:59 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"","Noticket": "1109125"}
+2021-06-01 18:35:59 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:35:59 ERROR PrincipalBean:408 - Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:35:59 ERROR PrincipalBean:350 -    ::: Error java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF --> java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:35:59 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-01 18:35:59 ERROR PrincipalMain:58 - Mensaje del error: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:35:59 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:351)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:409)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:319)
+	... 1 more
+Caused by: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	... 3 more
+2021-06-01 18:36:03 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-01 18:36:04 INFO  PrincipalBean:448 -    ::: Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-01 18:36:04 INFO  PrincipalBean:455 -    ::: Ticket a enviar: 1109125
+2021-06-01 18:36:04 INFO  PrincipalBean:456 -    ::: Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"
+2021-06-01 18:36:04 INFO  PrincipalBean:458 -    ::: Enviando información...
+2021-06-01 18:36:04 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-01 18:36:04 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"","Noticket": "1109125"}
+2021-06-01 18:36:04 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:36:04 ERROR PrincipalBean:467 - Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:36:04 ERROR PrincipalBean:409 -    ::: Error java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF --> java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:36:04 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-01 18:36:04 ERROR PrincipalMain:58 - Mensaje del error: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:36:04 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:410)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:468)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:378)
+	... 1 more
+Caused by: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	... 3 more
+2021-06-01 18:48:57 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-01 18:48:57 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-01 18:48:57 INFO  PrincipalBean:389 - Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-01 18:48:57 INFO  PrincipalBean:396 - Ticket a enviar: 1109125
+2021-06-01 18:48:57 INFO  PrincipalBean:397 - Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"
+2021-06-01 18:48:57 INFO  PrincipalBean:448 -    ::: Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-01 18:48:57 INFO  PrincipalBean:399 - Enviando información...
+2021-06-01 18:48:57 INFO  PrincipalBean:455 -    ::: Ticket a enviar: 1109125
+2021-06-01 18:48:57 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-01 18:48:57 INFO  PrincipalBean:456 -    ::: Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"
+2021-06-01 18:48:57 INFO  PrincipalBean:458 -    ::: Enviando información...
+2021-06-01 18:48:57 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-01 18:48:57 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"","Noticket": "1109125"}
+2021-06-01 18:48:57 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "prueba 2"","Noticket": "1109125"}
+2021-06-01 18:48:57 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:48:57 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:48:57 ERROR PrincipalBean:467 - Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:48:57 ERROR PrincipalBean:408 - Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:48:57 ERROR PrincipalBean:409 -    ::: Error java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF --> java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:48:57 ERROR PrincipalBean:350 -    ::: Error java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF --> java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:48:57 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-01 18:48:57 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-01 18:48:57 ERROR PrincipalMain:58 - Mensaje del error: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:48:57 ERROR PrincipalMain:58 - Mensaje del error: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-01 18:48:57 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:351)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:409)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:319)
+	... 1 more
+Caused by: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	... 3 more
+2021-06-01 18:48:57 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:410)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:468)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:378)
+	... 1 more
+Caused by: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.FileNotFoundException: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	... 3 more
+2021-06-03 17:40:56 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-03 17:40:56 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-03 17:40:57 INFO  PrincipalBean:448 -    ::: Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-03 17:40:57 INFO  PrincipalBean:455 -    ::: Ticket a enviar: 1113901
+2021-06-03 17:40:57 INFO  PrincipalBean:456 -    ::: Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "Ticket de prueba campo justificación"
+2021-06-03 17:40:57 INFO  PrincipalBean:458 -    ::: Enviando información...
+2021-06-03 17:40:57 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-03 17:40:57 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "Ticket de prueba campo justificación"","Noticket": "1113901"}
+2021-06-03 17:40:57 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-03 17:40:57 ERROR PrincipalBean:467 - Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-03 17:40:57 ERROR PrincipalBean:409 -    ::: Error java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF --> java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-03 17:40:57 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-03 17:40:57 ERROR PrincipalMain:58 - Mensaje del error: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-03 17:40:57 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:410)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:468)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:378)
+	... 1 more
+Caused by: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	... 3 more
+2021-06-03 17:40:57 INFO  PrincipalBean:389 - Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-03 17:40:57 INFO  PrincipalBean:396 - Ticket a enviar: 1113901
+2021-06-03 17:40:57 INFO  PrincipalBean:397 - Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "Ticket de prueba campo justificación"
+2021-06-03 17:40:57 INFO  PrincipalBean:399 - Enviando información...
+2021-06-03 17:40:57 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-03 17:40:57 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "Ticket de prueba campo justificación"","Noticket": "1113901"}
+2021-06-03 17:40:57 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-03 17:40:57 ERROR PrincipalBean:408 - Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-03 17:40:57 ERROR PrincipalBean:350 -    ::: Error java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF --> java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-03 17:40:57 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-03 17:40:57 ERROR PrincipalMain:58 - Mensaje del error: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-03 17:40:57 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:351)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:409)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:319)
+	... 1 more
+Caused by: java.lang.Exception: Erros al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+	... 3 more
+2021-06-04 11:27:25 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-04 11:27:25 INFO  PrincipalBean:358 - Procesando la Justificació para el Objeto: cr:1535859
+2021-06-04 11:27:25 INFO  PrincipalBean:371 - Conectando a la base de datos... 
+2021-06-04 11:27:25 INFO  ConnectorBDDConsultasBean:32 - URL:jdbc:sqlserver://10.180.251.32:1433;databaseName=mdb
+2021-06-04 11:27:26 INFO  ConnectorBDDConsultasBean:36 - La conexión a la base de datos es satisfactoria.
+2021-06-04 11:27:26 INFO  PrincipalBean:484 -    ::: Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-04 11:27:26 INFO  PrincipalBean:491 -    ::: Ticket a enviar: 1114757
+2021-06-04 11:27:26 INFO  PrincipalBean:492 -    ::: Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "Se documenta justificación para validar envio del campo de SD a SF"
+2021-06-04 11:27:26 INFO  PrincipalBean:494 -    ::: Enviando información...
+2021-06-04 11:27:26 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-04 11:27:26 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "Se documenta justificación para validar envio del campo de SD a SF"","Noticket": "1114757"}
+2021-06-04 11:27:36 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-04 11:27:36 ERROR PrincipalBean:503 - Error al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-04 11:27:36 ERROR PrincipalBean:505 - Enviar error al log de actividades...
+2021-06-04 11:27:36 ERROR PrincipalBean:506 - Obteniendo id de sesión...
+2021-06-04 11:27:38 ERROR PrincipalBean:445 -    ::: Error Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure. --> Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+2021-06-04 11:27:38 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-04 11:27:38 ERROR PrincipalMain:58 - Mensaje del error: com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+2021-06-04 11:27:38 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:446)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(Unknown Source)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(Unknown Source)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(Unknown Source)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy31.login(Unknown Source)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.login(PrincipalBean.java:571)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:507)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:414)
+	... 1 more
+2021-06-04 11:33:52 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-04 11:33:52 INFO  PrincipalBean:358 - Procesando la Justificació para el Objeto: cr:1535859
+2021-06-04 11:33:52 INFO  PrincipalBean:371 - Conectando a la base de datos... 
+2021-06-04 11:33:52 INFO  AppPropsBean:51 - Logs inicializados satisfactoriamente !!
+2021-06-04 11:33:52 INFO  PrincipalBean:358 - Procesando la Justificació para el Objeto: cr:1535859
+2021-06-04 11:33:52 INFO  PrincipalBean:371 - Conectando a la base de datos... 
+2021-06-04 11:33:52 INFO  ConnectorBDDConsultasBean:32 - URL:jdbc:sqlserver://10.180.251.32:1433;databaseName=mdb
+2021-06-04 11:33:52 INFO  ConnectorBDDConsultasBean:32 - URL:jdbc:sqlserver://10.180.251.32:1433;databaseName=mdb
+2021-06-04 11:33:53 INFO  ConnectorBDDConsultasBean:36 - La conexión a la base de datos es satisfactoria.
+2021-06-04 11:33:53 INFO  ConnectorBDDConsultasBean:36 - La conexión a la base de datos es satisfactoria.
+2021-06-04 11:33:53 INFO  PrincipalBean:484 -    ::: Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-04 11:33:53 INFO  PrincipalBean:491 -    ::: Ticket a enviar: 1114757
+2021-06-04 11:33:53 INFO  PrincipalBean:492 -    ::: Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "Se documenta justificación para validar envio del campo de SD a SF"
+2021-06-04 11:33:53 INFO  PrincipalBean:494 -    ::: Enviando información...
+2021-06-04 11:33:53 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-04 11:33:53 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "Se documenta justificación para validar envio del campo de SD a SF"","Noticket": "1114757"}
+2021-06-04 11:33:53 INFO  PrincipalBean:484 -    ::: Enviando la información SF pra sincronizar la resolución del ticket
+2021-06-04 11:33:53 INFO  PrincipalBean:491 -    ::: Ticket a enviar: 1114757
+2021-06-04 11:33:53 INFO  PrincipalBean:492 -    ::: Justificación a enviar: El analista: "Celestino Rosas, Jose" Registra la justificación: "Se documenta justificación para validar envio del campo de SD a SF"
+2021-06-04 11:33:53 INFO  PrincipalBean:494 -    ::: Enviando información...
+2021-06-04 11:33:53 INFO  ConsumoSoaInfraAPIRestClient:31 - []
+2021-06-04 11:33:53 INFO  ConsumoSoaInfraAPIRestClient:42 - {"Justificacion": "El analista: "Celestino Rosas, Jose" Registra la justificación: "Se documenta justificación para validar envio del campo de SD a SF"","Noticket": "1114757"}
+2021-06-04 11:34:04 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-04 11:34:04 INFO  ConsumoSoaInfraAPIRestClient:59 - Exception in NetClientGet:- java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-04 11:34:04 ERROR PrincipalBean:503 - Error al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-04 11:34:04 ERROR PrincipalBean:503 - Error al enviar la información a: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF. Error: java.io.IOException: Server returned HTTP response code: 500 for URL: http://10.216.47.35/soa-infra/resources/ServiceDesk/EnvioJustificacionSF/RestEnvioJustificacionSF/EnvioJustificacionSF
+2021-06-04 11:34:04 ERROR PrincipalBean:505 - Enviar error al log de actividades...
+2021-06-04 11:34:04 ERROR PrincipalBean:505 - Enviar error al log de actividades...
+2021-06-04 11:34:04 ERROR PrincipalBean:506 - Obteniendo id de sesión...
+2021-06-04 11:34:04 ERROR PrincipalBean:506 - Obteniendo id de sesión...
+2021-06-04 11:34:05 ERROR PrincipalBean:445 -    ::: Error Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure. --> Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+2021-06-04 11:34:05 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-04 11:34:05 ERROR PrincipalMain:58 - Mensaje del error: com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+2021-06-04 11:34:05 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:446)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(Unknown Source)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(Unknown Source)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(Unknown Source)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy31.login(Unknown Source)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.login(PrincipalBean.java:571)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:507)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:414)
+	... 1 more
+2021-06-04 11:34:05 ERROR PrincipalBean:445 -    ::: Error Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure. --> Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+2021-06-04 11:34:05 ERROR PrincipalMain:57 - Se produjo un error al intentar ejecutar este componente
+2021-06-04 11:34:05 ERROR PrincipalMain:58 - Mensaje del error: com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+2021-06-04 11:34:05 ERROR PrincipalMain:59 - Traza....
+mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalException: com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:446)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalMain.main(PrincipalMain.java:54)
+Caused by: com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Error: ha fallado el servicio de inicio de sesión Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(Unknown Source)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(Unknown Source)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(Unknown Source)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(Unknown Source)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy31.login(Unknown Source)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.login(PrincipalBean.java:571)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.enviarInfoSoa(PrincipalBean.java:507)
+	at mx.com.syntech.tpe.salesforce.servicedesk.resolver.ticket.main.PrincipalBean.sendJustificacionDeResolucionDeTicket(PrincipalBean.java:414)
+	... 1 more
